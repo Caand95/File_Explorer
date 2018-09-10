@@ -45,20 +45,20 @@ Vores **File Explorer** har hovedsagen i at kunne:
 
 - [ ] **HotKeys**
 
-  HotKey | Command
-  – | – 
-  Ctrl+C* | Kopier
-  *Ctrl+V* | Sæt ind
-  *Ctrl+X* | Klip
-  *Ctrl+Z* | Fortry
-  *Ctrl+Y* | Fortryd fortryd
-  *Ctrl+F* | Searchbar
-  *Ctrl+E / Ctrl+L* | Adressbar
-  *Ctrl+D* | Flyt
-  *Ctrl+T* | Ny tab
-  *Arrowkeys* | True bevægelse
-  *Bogstaver* | find næste med startbogstav
-  *Ctrl+Shft+\** | TeltMode
+  | HotKey   | Command |
+  | -------- | ------- |
+  | *Ctrl+C* | Kopier  |
+  |  *Ctrl+V* | Sæt ind |
+  |*Ctrl+X* | Klip |
+  |*Ctrl+Z* | Fortry |
+  |*Ctrl+Y* | Fortryd fortryd |
+  |*Ctrl+F* | Searchbar |
+  |*Ctrl+E / Ctrl+L* | Adressbar |
+  |*Ctrl+D* | Flyt |
+  |*Ctrl+T* | Ny tab |
+  |*Arrowkeys* | True bevægelse |
+  |*Bogstaver* | find næste med startbogstav |
+  |*Ctrl+Shft+\** | TeltMode |
 
 - [ ] **Custrom HotKeys**
 
