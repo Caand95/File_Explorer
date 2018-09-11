@@ -8,10 +8,15 @@ namespace FileExplorer.Logic.Item
 {
     internal class File : Item
     {
+        //Attributes
+        internal DateTime _lastOpenedDate;
+        internal DateTime _modifiedDate;
+        internal string _commandToRun;
+
         //Properties
-        internal DateTime LastOpenedDate { get; set; }
-        internal DateTime ModifiedDate { get; set; }
-        internal string CommandToRun { get; set; }
+        internal DateTime LastOpenedDate { get { return this._lastOpenedDate; } set { this._lastOpenedDate = value; OnPropertyChanged(); } }
+        internal DateTime ModifiedDate { get { return this._modifiedDate; } set { this._modifiedDate = value; OnPropertyChanged(); } }
+        internal string CommandToRun { get { return this._commandToRun; } set { this._commandToRun = value; OnPropertyChanged(); } }
 
         //Constructors
         internal File() : base() { }

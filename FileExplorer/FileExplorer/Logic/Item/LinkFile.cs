@@ -8,11 +8,16 @@ namespace FileExplorer.Logic.Item
 {
     class LinkFile: File
     {
+        //Attributes
+        internal string _linkPath;
+        internal string[] _runArgs;
+        internal FileType _runtype;
+        internal string _comment;
         //Properties
-        internal string LinkPath { get; set; }
-        internal string[] RunArgs { get; set; }
-        internal FileType RunFileType { get; set; }
-        internal string Comment { get; set; }
+        internal string LinkPath { get { return this._linkPath; } set { this._linkPath = value; OnPropertyChanged(); } }
+        internal string[] RunArgs { get { return this._runArgs; } set { this._runArgs = value; OnPropertyChanged(); } }
+        internal FileType RunFileType { get { return this._runtype; } set { this._runtype = value; OnPropertyChanged(); } }
+        internal string Comment { get { return this._comment; } set { this._comment = value; OnPropertyChanged(); } }
 
         //Constructors
         internal LinkFile(): base() { }
@@ -37,3 +42,4 @@ namespace FileExplorer.Logic.Item
 
     }
 }
+ 
