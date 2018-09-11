@@ -62,16 +62,12 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-<<<<<<< HEAD
     <Compile Include="Logic\FileManager\FileManager.cs" />
     <Compile Include="Logic\FileManager\Interfaces\IFileManager.cs" />
     <Compile Include="Logic\FileManager\WindowsFileManager.cs" />
-    <Compile Include="Logic\Item\ItemManager.cs" />
-=======
     <Compile Include="Logic\Item\FileType.cs" />
     <Compile Include="Logic\Item\ItemManager.cs" />
     <Compile Include="Logic\Item\Item.cs" />
->>>>>>> ae819e9f58399ade35445bfb464a8800c6235cf8
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
