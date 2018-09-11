@@ -25,5 +25,6 @@ namespace FileExplorer.Logic.Item
         internal bool IsWriteProtected { get; set; }
 
         public abstract void Open();
+
     }
 }
