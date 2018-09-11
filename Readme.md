@@ -73,3 +73,9 @@ Svar: **Blur funktion** , **Themes**
 Krav: *Løsningen skla kunne bruges i et telt*
 
 Svar: **TeltMode**
+
+## UML / Classdiagram
+
+![](ClassDiagram.drawio.png)
+
+Dette er grund idéen fra af Basis opsætning før at vi kan begynde at implementerer flere funktioner til vores program.
