@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace FileExplorer.Logic.Item
 {
-    class ItemManager
+    public class ItemManager
     {
+
     }
 }

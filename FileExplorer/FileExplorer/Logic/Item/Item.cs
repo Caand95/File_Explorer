@@ -6,16 +6,9 @@ using System.Threading.Tasks;
 
 namespace FileExplorer.Logic.Item
 {
-    abstract class Item
+    public class Item
     {
-        private string path;
-        private string name;
-        private string size;
-        private string owner;
-        private FileType type;
-        private DateTime creationDate;
-        private bool isWriteProtected;
-
+        //Properties
         internal string Path { get; set; }
         internal string Name { get; set; }
         internal string Size { get; set; }
@@ -24,7 +17,23 @@ namespace FileExplorer.Logic.Item
         internal DateTime CreationDate { get; set; }
         internal bool IsWriteProtected { get; set; }
 
-        public abstract void Open();
+        //Constructor
+        internal Item() { }
+        internal Item(string path, string name, string size, string owner, FileType type, DateTime creationDate, bool writeprotection)
+        {
+            this.Path = path;
+            this.Name = name;
+            this.Size = size;
+            this.Owner = owner;
+            this.Type = type;
+            this.CreationDate = creationDate;
+            this.IsWriteProtected = writeprotection;
+        }
+        //Methods
+        internal virtual string Open()
+        {
+            return $"{this.Path}";
+        }
 
     }
 }
