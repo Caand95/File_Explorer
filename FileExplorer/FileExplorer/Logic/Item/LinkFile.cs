@@ -39,6 +39,10 @@ namespace FileExplorer.Logic.Item
             }
             return output;
         }
+        internal string Link()
+        {
+            return $"{this.LinkPath}";
+        }
 
     }
 }

@@ -65,9 +65,12 @@
     <Compile Include="Logic\FileManager\FileManager.cs" />
     <Compile Include="Logic\FileManager\Interfaces\IFileManager.cs" />
     <Compile Include="Logic\FileManager\WindowsFileManager.cs" />
+    <Compile Include="Logic\Item\File.cs" />
     <Compile Include="Logic\Item\FileType.cs" />
+    <Compile Include="Logic\Item\Folder.cs" />
     <Compile Include="Logic\Item\ItemManager.cs" />
     <Compile Include="Logic\Item\Item.cs" />
+    <Compile Include="Logic\Item\LinkFile.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
