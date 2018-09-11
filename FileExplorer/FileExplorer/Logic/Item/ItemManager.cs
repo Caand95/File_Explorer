@@ -36,5 +36,12 @@ namespace FileExplorer.Logic.Item
             else
                 return (item as File).ModifiedDate;
         }
+        public string GetRunCommand(Item item)
+        {
+            if (item is File)
+                return (item as File).Open();
+            else
+                return "Cannot execute!";
+        }
     }
 }
