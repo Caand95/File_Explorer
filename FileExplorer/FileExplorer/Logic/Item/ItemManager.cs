@@ -8,6 +8,17 @@ namespace FileExplorer.Logic.Item
 {
     public abstract class ItemManager
     {
+        //Attributes & Properties
+        internal Folder _currentFolder;
+        internal Folder CurrentFolder { get { return this._currentFolder; } set { this._currentFolder = value; OnPropertyChanged(); } }
+
+
+
+        //Methods
+        public List<Item> GetContent(Folder folder)
+        {
+            return folder.ListofItems;
+        }
 
         public string Open(Item item)
         {
