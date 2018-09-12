@@ -68,7 +68,7 @@
     <Compile Include="Logic\FileManager\Item\File.cs" />
     <Compile Include="Logic\FileManager\Item\FileType.cs" />
     <Compile Include="Logic\FileManager\Item\Folder.cs" />
-    <Compile Include="Logic\Item\ItemManager.cs" />
+    <Compile Include="Logic\FolderManager\CurrentFolderManager.cs" />
     <Compile Include="Logic\FileManager\Item\Item.cs" />
     <Compile Include="Logic\FileManager\Item\LinkFile.cs" />
     <Compile Include="MainWindow.xaml.cs">
