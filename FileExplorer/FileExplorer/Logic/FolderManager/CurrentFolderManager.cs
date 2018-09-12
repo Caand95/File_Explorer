@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using FileExplorer.Logic.FileManager;
 
 
-namespace FileExplorer.Logic.FolderManager
+namespace FileExplorer.Logic.FileManager
 {
     public abstract class CurrentFolderManager
     {

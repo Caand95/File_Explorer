@@ -3,3 +3,8 @@ C:\Users\casp7654\Desktop\Hovedforløb 2\File_Explorer\FileExplorer\FileExplorer
 C:\Users\casp7654\Desktop\Hovedforløb 2\File_Explorer\FileExplorer\FileExplorer\obj\Debug\App.g.cs
 C:\Users\casp7654\Desktop\Hovedforløb 2\File_Explorer\FileExplorer\FileExplorer\obj\Debug\FileExplorer_MarkupCompile.cache
 C:\Users\casp7654\Desktop\Hovedforløb 2\File_Explorer\FileExplorer\FileExplorer\obj\Debug\FileExplorer_MarkupCompile.lref
+C:\Users\vimka\Documents\GitHub\File_Explorer\FileExplorer\FileExplorer\obj\Debug\FileExplorer.csprojAssemblyReference.cache
+C:\Users\vimka\Documents\GitHub\File_Explorer\FileExplorer\FileExplorer\obj\Debug\MainWindow.g.cs
+C:\Users\vimka\Documents\GitHub\File_Explorer\FileExplorer\FileExplorer\obj\Debug\App.g.cs
+C:\Users\vimka\Documents\GitHub\File_Explorer\FileExplorer\FileExplorer\obj\Debug\FileExplorer_MarkupCompile.cache
+C:\Users\vimka\Documents\GitHub\File_Explorer\FileExplorer\FileExplorer\obj\Debug\FileExplorer_MarkupCompile.lref

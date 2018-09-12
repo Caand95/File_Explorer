@@ -4,24 +4,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FileExplorer.FileManager.Item
+namespace FileExplorer.Logic.FileManager.Item
 {
     class LinkFile: File
     {
-        //Attributes
-        internal string _linkPath;
-        internal string[] _runArgs;
-        internal FileType _runtype;
-        internal string _comment;
         //Properties
-        internal string LinkPath { get { return this._linkPath; } set { this._linkPath = value; OnPropertyChanged(); } }
-        internal string[] RunArgs { get { return this._runArgs; } set { this._runArgs = value; OnPropertyChanged(); } }
-        internal FileType RunFileType { get { return this._runtype; } set { this._runtype = value; OnPropertyChanged(); } }
-        internal string Comment { get { return this._comment; } set { this._comment = value; OnPropertyChanged(); } }
+        internal string LinkPath { get; set; }
+        internal string[] RunArgs { get; set; }
+        internal FileType RunFileType { get; set; }
+        internal string Comment { get; set; }
 
         //Constructors
-        internal LinkFile(): base() { }
-        internal LinkFile(string path, string name, string size, string owner, FileType type, DateTime creationDate, bool writeprotection, DateTime lastOpenedDate, DateTime modifiedDate, string commandToRun, string linkPath, string[] runArgs, FileType runfileType, string comment) : base(path, name, size, owner, type, creationDate, writeprotection, lastOpenedDate, modifiedDate, commandToRun) // sorry had to
+        internal LinkFile(string path, string name, string size, string owner, FileType type, DateTime creationDate, bool writeprotection, DateTime lastOpenedDate, DateTime modifiedDate, string linkPath, string[] runArgs,/* FileType runfileType,*/ string comment) : base(path, name, size, owner, type, creationDate, writeprotection, lastOpenedDate, modifiedDate, "start " + linkPath) // sorry had to
         {
             this.LinkPath = linkPath;
             this.RunArgs = runArgs;
