@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace FileExplorer.Logic.FileManager
 {
-    class FileManager
+    class FileController
     {
         Interfaces.IFileManager man;
-        public FileManager(string fileSystem)
+        public FileController(string fileSystem)
         {
             if (fileSystem == "win")
             {

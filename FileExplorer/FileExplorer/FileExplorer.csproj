@@ -62,7 +62,7 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Logic\FileManager\FileManager.cs" />
+    <Compile Include="Logic\FileManager\FileController.cs" />
     <Compile Include="Logic\FileManager\Interfaces\IFileManager.cs" />
     <Compile Include="Logic\FileManager\WindowsFileManager.cs" />
     <Compile Include="Logic\Item\File.cs" />

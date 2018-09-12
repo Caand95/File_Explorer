@@ -9,6 +9,5 @@ namespace FileExplorer.Logic.FileManager.Interfaces
     interface IFileManager
     {
         List<Logic.Item.Item> GetFolderContents(string path);
-
     }
 }
