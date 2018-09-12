@@ -17,7 +17,7 @@ namespace FileExplorer.Logic.FileManager
             }
             else if (fileSystem == "unix")
             {
-                man = new UnixFileSystem();
+                //man = new UnixFileSystem();
             }
         }
         public List<Item.Item> GetFolderContents(string path)
