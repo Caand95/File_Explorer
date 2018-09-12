@@ -5,15 +5,15 @@ using System.Linq;
 using System.Security.Principal;
 using System.Text;
 using System.Threading.Tasks;
-using FileExplorer.Logic.FileManager.Interfaces;
+using FileExplorer.FileManager.FileManager.Interfaces;
 
-namespace FileExplorer.Logic.FileManager
+namespace FileExplorer.FileManager.FileManager
 {
     class WindowsFileManager : Interfaces.IFileManager
     {
-        internal List<Logic.Item.Item> IFileManager.GetFolderContents(string path)
+        List<Item.Item> IFileManager.GetFolderContents(string path)
         {
-            List<Logic.Item.Item> list = new List<Logic.Item.Item>();
+            List<Item.Item> list = new List<Item.Item>();
             DirectoryInfo direInfo = new DirectoryInfo(path);
             foreach (var item in direInfo.EnumerateFileSystemInfos())
             {

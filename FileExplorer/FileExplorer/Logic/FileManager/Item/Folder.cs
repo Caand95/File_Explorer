@@ -4,16 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FileExplorer.Logic.Item
+namespace FileExplorer.FileManager.Item
 {
     class Folder : Item
     {
         //Attributes & Properties
-        internal List<Item> _listofItems;
-        internal List<Item> ListofItems { get { return this._listofItems; } set { this._listofItems = value; OnPropertyChanged(); } }
+        internal List<Item> ListofItems { get; set; }
 
         //Constructors
-        internal Folder(): base() { }
         internal Folder(string path, string name, string size, string owner, FileType type, DateTime creationDate, bool writeprotection) : base(path, name, size, owner, type, creationDate, writeprotection)
         {
 

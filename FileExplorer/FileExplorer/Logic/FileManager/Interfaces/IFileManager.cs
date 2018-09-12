@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FileExplorer.Logic.FileManager.Interfaces
+namespace FileExplorer.FileManager.FileManager.Interfaces
 {
     interface IFileManager
     {
-        List<Logic.Item.Item> GetFolderContents(string path);
+        List<Item.Item> GetFolderContents(string path);
     }
 }
